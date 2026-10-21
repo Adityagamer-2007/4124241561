@@ -1,0 +1,11 @@
+{
+  "name": "it-consulting-sarl-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static multi-page website for IT CONSULTING SARL (HTML, CSS, vanilla JavaScript). No build step, no runtime dependencies.",
+  "scripts": {
+    "start": "npx --yes serve . -l 8080",
+    "test:function": "node backend/netlify-functions/contact.test.js"
+  },
+  "license": "UNLICENSED"
+}
